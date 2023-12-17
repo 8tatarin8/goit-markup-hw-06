@@ -26,7 +26,6 @@
     <header class="main-header">
         <div class="container header-container">
             <nav class="header-navigation">
-                <!--logo-->
                 <a class="logo-webstudio-text link" href="./index.html">Web<span class="header-logo-link">Studio</span></a>
             
                 <ul class="header-menu-list list">
@@ -42,6 +41,11 @@
                     </li>
                 </ul>
             </nav>
+            <button class="mobile-menu-btn-open" type="button">
+                <svg class="mobile-open-btn-icon" width="24" height="24" aria-label="menu open icon">
+                    <use href="images/icons.svg#icon-burger" ></use>
+                </svg>
+            </button>
             <!--інтерактивні посилання-->
             <address class="header-page-adress list">
                 <ul class="list-contacts list">
@@ -58,17 +62,16 @@
 
     <main>
         <!--1 SECTION/HERO.ORDER SERVICE-->
-        <section class="section-hero-servise">
+        <!-- <section class="section-hero-servise">
             <div class="container hero-container">
                 <h1 class="section-hero-solutions" lang="en">Effective Solutions
                     for Your Business</h1>
                 <button type="button" class="section-hero-button-servise">Order Service</button>
             </div>
-        </section>
+        </section> -->
         <!--2 SECTION-->
-        <section class="section-our-goals">
+        <!-- <section class="section-our-goals">
             <div class="container our-goals-container">
-                <!--прихований заголовок-->
                 <h2 class="visually-hidden" lang="en">the main goals of our web studio</h2>
                 <ul class="section-our-goals-list list">
                     <li class="section-our-goals-item">
@@ -134,9 +137,9 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         <!--3 SECTION.OUR TEAM-->
-        <section class="section-team">
+        <!-- <section class="section-team">
             <div class="container team-container">
                 <h2 class="section-team-first-title title-index" lang="en">Our Team</h2>
 
@@ -344,9 +347,9 @@
                     </li>
                 </ul>
             </div>   
-        </section>
+        </section> -->
         <!--4 SECTION.PORTFOLIO-->
-        <section class="portfolio">
+        <!-- <section class="portfolio">
             <div class="container portfolio-container">
                 <h2 class="section-portfolio title-index" lang="en">Our Portfolio</h2>
 
@@ -449,11 +452,11 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
     </main>
 
     <!--FOOTER-->
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container footer-container">
             <div class="logo-text-footer-box">
                 <a class="logo-webstudio-text link footer-logo" href="./index.html">Web<span class="footer-logo-link">Studio</span></a>
@@ -532,10 +535,10 @@
             </div>
         </div>
     
-    </footer>
+    </footer> -->
 
     <!--BACKDROP WITH MODAL WINDOW-->
-    <div class="backdrop">
+    <!-- <div class="backdrop">
         <div class="modal-window">
             <button class="btn-close-window" 
             type="button">
@@ -646,6 +649,73 @@
                 </div>
                 <button class="review-form-submit" type="submit">Send</button>
             </form>
+        </div>
+    </div> -->
+    
+    <!-- MOBILE MODAL MENU -->
+    <div class="mobile-menu-box is-open">
+        <div class="mobile-menu-container container">
+            <button class="mobile-menu-close-button" type="button">
+                <svg class="mobile-menu-close-icon" width="8" height="8" aria-label="mobile close icon">
+                    <use href="./images/icons.svg#icon-x-close"></use>
+                </svg>
+            </button>
+            <nav class="mobile-navigation">
+                <ul class="mobile-menu-list list">
+                    <li class="mobile-menu-item">
+                        <!--підключив перехід між сторінками-->
+                        <a class="mobile-menu-link hdr-text-color current link" href="./index.html">Studio</a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a class="mobile-menu-link hdr-text-color link" href="">Portfolio</a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a class="mobile-menu-link hdr-text-color link" href="">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-adress-social">
+                <address class="mobile-page-adress list">
+                    <ul class="mobile-list-contacts list">
+                        <li class="mobile-contacts-item">
+                            <a class="mobile-contacts hdr-text-color link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="mobile-contacts-item">
+                            <a class="mobile-contacts hdr-text-color link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        </li>
+                    </ul>
+                </address>
+                <ul class="mobile-social-networks-list">
+                    <li class="mobile-social-networks-item list link">
+                        <a href="" class="mobile-social-networks-link">
+                            <svg class="mobile-social-networks-svg" aria-label="instagram icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-social-networks-item list link">
+                        <a href="" class="mobile-social-networks-link">
+                            <svg class="mobile-social-networks-svg" aria-label="twitter icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-social-networks-item list link">
+                        <a href="" class="mobile-social-networks-link">
+                            <svg class="mobile-social-networks-svg" aria-label="facebook icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-social-networks-item list link">
+                        <a href="" class="mobile-social-networks-link">
+                            <svg class="mobile-social-networks-svg" aria-label="linkedin icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
